@@ -1,0 +1,4 @@
+(applied_python)[yanhao@ip-172-30-0-168 SNMP]$ snmpwalk -v 1 -c galileo 50.242.94.227:7961 sysname
+SNMPv2-MIB::sysName.0 = STRING: pynet-rtr1.twb-tech.com
+(applied_python)[yanhao@ip-172-30-0-168 SNMP]$ snmpwalk -v 1 -c galileo 50.242.94.227:8061 sysname
+SNMPv2-MIB::sysName.0 = STRING: pynet-rtr2.twb-tech.com
